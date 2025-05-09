@@ -1,15 +1,13 @@
+// src/pages/HeroVideo.jsx
+import React from 'react';
 import ReactPlayer from 'react-player';
 
-export default function HeroVideo() {
+function HeroVideo() {
   return (
-    <div className="hero">
-      <ReactPlayer
-        url="https://www.youtube.com/watch?v=0pVkiod6V0U"
-        playing
-        controls
-        width="100%"
-        height="400px"
-      />
+    <div className="hero-video">
+      <ReactPlayer url="https://www.youtube.com/watch?v=4bG17OYs-GA" playing muted width="100%" height="100%" />
     </div>
   );
 }
+
+export default HeroVideo;
